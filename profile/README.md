@@ -1,16 +1,8 @@
-## Hi there 👋
+## 欢迎使用Cherry Game 👋
 
 
-**Here are some ideas to get you started:**
+cherry是一款Go语言实现的游戏服务端框架。它具有高性能、可伸缩、分布式的特点。可以帮助开发者省去搭建业务框架的工作，免除重复造轮子，让开发者更多的关注游戏的具体逻辑，提高开发效率。
 
-🙋‍♀️ A short introduction - what is your organization all about?
-
-🌈 Contribution guidelines - how can the community get involved?
-
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-
-🍿 Fun facts - what does your team eat for breakfast?
-
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+框架基于NATS集群进行消息分发，依托Goroutine的优势实现Actor模型，根据业务可构建成千上万个Actor实例，方便玩家与玩家通信，模块与模块通信。通过组件的方式进行功能扩展，统一管理所有组件的生命周期。
 
 
